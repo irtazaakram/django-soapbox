@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="django-soapbox",
-    version="1.7.1",
+    version="1.6.1",
     zip_safe=False,  # eggs are the devil.
     description=(
         "Site-wide and page-specific announcements/messages for " "Django sites"
@@ -21,11 +21,7 @@ setup(
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
         "Framework :: Django",
-        "Framework :: Django :: 2.2",
-        "Framework :: Django :: 3.0",
-        "Framework :: Django :: 3.1",
         "Framework :: Django :: 3.2",
-        "Framework :: Django :: 4.0",
         "Framework :: Django :: 4.1",
         "Framework :: Django :: 4.2",
         "Intended Audience :: Developers",
@@ -38,5 +34,5 @@ setup(
         "Topic :: Utilities",
     ],
     python_requires=">=3.8",
-    install_requires=["Django>=2.2"],
+    install_requires=["Django>=3.2"],
 )
